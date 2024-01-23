@@ -122,7 +122,6 @@ class ShopItemActivity : AppCompatActivity() {
                 throw RuntimeException("Param shop item id is absent")
             shopItemId = intent.getIntExtra(EXTRA_SHOP_ITEM_ID, ShopItem.UNDEFINED_ID)
         }
-
     }
 //
 //    private fun initViews() {
